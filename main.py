@@ -59,7 +59,7 @@ def enemigo(x, y, i):
 # Balas
 img_bala = pygame.image.load("media/bola-de-fuego.png")
 bala_x = 0
-bala_y = 568
+bala_y = pantalla.get_height() - 32
 bala_x_cambio = 0
 bala_y_cambio = 0.4
 visibilidad_bala = False
